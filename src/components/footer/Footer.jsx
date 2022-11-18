@@ -15,6 +15,9 @@ const Footer = () => {
             Cable: Works Kuwait
           </p>
           <p className="web">www.mpw.gov.kw</p>
+          <span className="copyright">
+            © Copyright created by: Eng. Abdullah Althaydi
+          </span>
         </div>
       </div>
     </>

@@ -13,7 +13,8 @@ const Form1 = () => {
   //   var doc = new jsPDF("p", "pt", "a4");
   //   doc.html(document.querySelector("#content"), {
   //     callback: function (pdf) {
-  //       pdf.save("mypdf.pdf");
+  //       pdf.setFont("Scheherazade New");
+  //       pdf.save("شهادة معايرة مصنع أسفلت.pdf");
   //     },
   //   });
   // };

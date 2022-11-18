@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap");
+
 body {
   box-sizing: border-box;
   margin: 0 2rem;
   padding: 0;
+  /* font-family: "Scheherazade New", serif; */
 }
 
 @media print {
@@ -9,5 +12,6 @@ body {
     width: 21cm;
     height: 29.7cm;
     margin: 0 0 30mm;
+    /* font-family: "Lateef", serif; */
   }
 }
