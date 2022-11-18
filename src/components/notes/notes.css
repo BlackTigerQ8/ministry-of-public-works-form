@@ -1,0 +1,24 @@
+.container {
+  /* padding: 2rem 0; */
+  text-align: right;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding-right: 1rem;
+}
+
+ul li {
+  /* padding: 1rem 0.5rem 0.5rem 0; */
+  align-items: center;
+  list-style: decimal;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.notes {
+  text-decoration: underline;
+  font-size: 26px;
+}

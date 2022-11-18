@@ -1,0 +1,21 @@
+.h-container {
+  display: flex;
+  /* flex-direction: column; */
+  padding: 0 2rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-1 {
+  height: auto;
+  width: 100px;
+}
+
+.logo-2 {
+  height: auto;
+  width: 100px;
+}
+
+.title {
+  font-size: 14px;
+}

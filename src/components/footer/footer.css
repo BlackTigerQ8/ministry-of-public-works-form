@@ -1,0 +1,32 @@
+.f-container {
+  /* padding-top: 1rem; */
+  margin: -1rem 0 -2rem 0;
+  font-size: 12px;
+}
+
+.ar-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: right;
+  margin-right: 2rem;
+}
+
+.en-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: left;
+  margin-left: 2rem;
+  margin-top: -1rem;
+  /* padding-top: 1rem; */
+}
+
+.web {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* padding-top: 1rem; */
+  margin-top: -0.5rem;
+  font-weight: bold;
+}
