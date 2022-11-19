@@ -26,12 +26,9 @@ input {
   margin: 0.5rem;
   padding: 0.5rem;
   text-align: right;
-  border-top: none;
-  border-left: none;
-  border-right: none;
 }
 
-button {
+/* button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,6 +38,14 @@ button {
   margin: 20% 40%;
   font-size: 20px;
   font-weight: bold;
+} */
+
+.links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 30%;
 }
 
 @media screen and (max-width: 576px) {
@@ -52,5 +57,9 @@ button {
     padding: 0.5rem 0.5rem;
     width: 30%;
     font-size: 14px;
+  }
+
+  .links ul {
+    margin: 0;
   }
 }

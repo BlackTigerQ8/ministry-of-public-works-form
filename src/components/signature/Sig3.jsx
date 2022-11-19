@@ -1,7 +1,7 @@
 import React from "react";
 import "./sig.css";
 
-const Sig = () => {
+const Sig3 = () => {
   return (
     <>
       <div className="sig-container">
@@ -13,7 +13,7 @@ const Sig = () => {
         <ul dir="rtl">
           <li>مدير إدارة مختبرات الطرق بالإنابة (م. الهام الحساوي)</li>
           <li>رئيس قسم الأسفلت بالندب (م. مهدي القلاف)</li>
-          <li>م. عبدالرحمن الشمري</li>
+          <li>م. حسن ميرزا</li>
         </ul>
       </div>
 
@@ -43,4 +43,4 @@ const Sig = () => {
   );
 };
 
-export default Sig;
+export default Sig3;

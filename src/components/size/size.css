@@ -1,0 +1,35 @@
+.size-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+table,
+tr,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 0 3rem;
+}
+
+table {
+  margin: 0.5rem;
+}
+
+.conf-sizes {
+  font-size: 14px;
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 576px) {
+  table,
+  tr,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0 0.5rem;
+  }
+}

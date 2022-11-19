@@ -1,13 +1,14 @@
 import React from "react";
 import "./form3.css";
 import Header from "../../components/header/Header";
-import Title from "../../components/title/Title";
-import Detail from "../../components/detail/Detail";
-import Notes from "../../components/notes/Notes";
-import Sig from "../../components/signature/Sig";
+import Title3 from "../../components/title/Title3";
+import Detail3 from "../../components/detail/Detail3";
+import Notes3 from "../../components/notes/Notes3";
+import Sig3 from "../../components/signature/Sig3";
 import Footer from "../../components/footer/Footer";
 // import jsPDF from "jspdf";
 import { Link } from "react-router-dom";
+import Size from "../../components/size/Size";
 
 const Form3 = () => {
   // const generatePDF = () => {
@@ -29,20 +30,25 @@ const Form3 = () => {
       <div className="form-container" id="content">
         <Header />
         <hr />
-        <Title />
-        <Detail />
-        <Notes />
-        <Sig />
+        <Title3 />
+        <Detail3 />
+        <Size />
+        <Notes3 />
+        <Sig3 />
         <hr />
         <Footer />
+      </div>
+      <div className="print-container">
         <button onClick={generatePDF} type="primary">
           طباعة الشهادة
         </button>
+      </div>
+      <div className="links">
         <ul>
           <Link to="/form1">شهادة معايرة مصنع أسفلت</Link>
           <Link to="/form2">شهادة تحليل الفجوات لمصنع أسفلت</Link>
           <Link to="/form3">
-            شهادة اعتماد مخزن صلبوخ (صلبوخ جابرو ثقيل لأعمال الأسفلت)
+            شهادة اعتماد مخزن صلبوخ <br /> (صلبوخ جابرو ثقيل لأعمال الأسفلت)
           </Link>
         </ul>
       </div>

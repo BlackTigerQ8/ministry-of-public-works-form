@@ -13,5 +13,19 @@ body {
     height: 29.7cm;
     margin: 0 0 30mm;
     /* font-family: "Lateef", serif; */
+    overflow: hidden;
+  }
+
+  a {
+    display: none;
+  }
+  input {
+    border: none;
+  }
+
+  button {
+    background-color: transparent;
+    color: transparent;
+    border: transparent;
   }
 }

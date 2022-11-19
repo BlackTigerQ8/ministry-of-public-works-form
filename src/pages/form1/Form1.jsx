@@ -35,15 +35,18 @@ const Form1 = () => {
         <Sig />
         <hr />
         <Footer />
-
+      </div>
+      <div className="print-container">
         <button onClick={generatePDF} type="primary">
           طباعة الشهادة
         </button>
+      </div>
+      <div className="links">
         <ul>
           <Link to="/form1">شهادة معايرة مصنع أسفلت</Link>
           <Link to="/form2">شهادة تحليل الفجوات لمصنع أسفلت</Link>
           <Link to="/form3">
-            شهادة اعتماد مخزن صلبوخ (صلبوخ جابرو ثقيل لأعمال الأسفلت)
+            شهادة اعتماد مخزن صلبوخ <br /> (صلبوخ جابرو ثقيل لأعمال الأسفلت)
           </Link>
         </ul>
       </div>

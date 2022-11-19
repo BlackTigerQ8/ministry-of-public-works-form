@@ -1,9 +1,9 @@
 import React from "react";
 import "./form2.css";
 import Header from "../../components/header/Header";
-import Title from "../../components/title/Title";
+import Title2 from "../../components/title/Title2";
 import Detail from "../../components/detail/Detail";
-import Notes from "../../components/notes/Notes";
+import Notes2 from "../../components/notes/Notes2";
 import Sig from "../../components/signature/Sig";
 import Footer from "../../components/footer/Footer";
 // import jsPDF from "jspdf";
@@ -29,20 +29,24 @@ const Form2 = () => {
       <div className="form-container" id="content">
         <Header />
         <hr />
-        <Title />
+        <Title2 />
         <Detail />
-        <Notes />
+        <Notes2 />
         <Sig />
         <hr />
         <Footer />
+      </div>
+      <div className="print-container">
         <button onClick={generatePDF} type="primary">
           طباعة الشهادة
         </button>
+      </div>
+      <div className="links">
         <ul>
           <Link to="/form1">شهادة معايرة مصنع أسفلت</Link>
           <Link to="/form2">شهادة تحليل الفجوات لمصنع أسفلت</Link>
           <Link to="/form3">
-            شهادة اعتماد مخزن صلبوخ (صلبوخ جابرو ثقيل لأعمال الأسفلت)
+            شهادة اعتماد مخزن صلبوخ <br /> (صلبوخ جابرو ثقيل لأعمال الأسفلت)
           </Link>
         </ul>
       </div>

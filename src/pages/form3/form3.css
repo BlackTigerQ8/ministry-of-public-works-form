@@ -26,9 +26,16 @@ input {
   margin: 0.5rem;
   padding: 0.5rem;
   text-align: right;
-  border-top: none;
-  border-left: none;
-  border-right: none;
+}
+
+.print-container {
+  /* border: 1px solid #000; */
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 button {
@@ -38,9 +45,16 @@ button {
   text-align: center;
   padding: 0.5rem 2rem;
   width: 25%;
-  margin: 20% 40%;
   font-size: 20px;
   font-weight: bold;
+}
+
+.links ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0.5rem 1rem;
 }
 
 @media screen and (max-width: 576px) {
@@ -50,7 +64,12 @@ button {
     align-items: center;
     text-align: center;
     padding: 0.5rem 0.5rem;
-    width: 30%;
+    width: 50%;
     font-size: 14px;
+    margin-bottom: 1rem;
+  }
+
+  .links ul {
+    margin: 0;
   }
 }
