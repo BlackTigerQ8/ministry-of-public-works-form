@@ -1,5 +1,5 @@
 import React from "react";
-import "./form2.css";
+import "./form3.css";
 import Header from "../../components/header/Header";
 import Title from "../../components/title/Title";
 import Detail from "../../components/detail/Detail";
@@ -9,7 +9,7 @@ import Footer from "../../components/footer/Footer";
 // import jsPDF from "jspdf";
 import { Link } from "react-router-dom";
 
-const Form2 = () => {
+const Form3 = () => {
   // const generatePDF = () => {
   //   var doc = new jsPDF("p", "pt", "a4");
   //   doc.html(document.querySelector("#content"), {
@@ -50,4 +50,4 @@ const Form2 = () => {
   );
 };
 
-export default Form2;
+export default Form3;

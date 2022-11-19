@@ -1,0 +1,39 @@
+.main-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 10rem 20%;
+  padding: 2rem;
+  border-radius: 45px;
+  background: linear-gradient(145deg, #f3cf96, #f2e7d5);
+  box-shadow: 10px 5px 15px #393e46;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: #393e46;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: #393e46 1px solid;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+}
+
+a:hover {
+  background-color: #393e46;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0 0 15px #393e46;
+}
+
+@media screen and (max-width: 576px) {
+  .main-container ul {
+    margin: 10rem 0.5rem;
+  }
+  a {
+    width: 80%;
+  }
+}
