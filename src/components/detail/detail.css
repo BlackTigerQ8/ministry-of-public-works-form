@@ -23,3 +23,32 @@
   margin: 0;
   /* border: 1px solid #000; */
 }
+
+@media screen and (max-width: 576px) {
+  .detail-container > .row {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row > .col {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+  }
+
+  .right {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

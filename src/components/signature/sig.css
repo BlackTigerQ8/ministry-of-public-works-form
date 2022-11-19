@@ -25,3 +25,23 @@
   font-size: 14px;
   /* margin-left: 3rem; */
 }
+
+@media screen and (max-width: 576px) {
+  .date-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+  }
+
+  .sig-container ul li {
+    list-style: none;
+    text-align: right;
+    font-size: 6px;
+  }
+
+  .sig-container h2 {
+    font-size: 10px;
+    margin-right: 0.5rem;
+  }
+}

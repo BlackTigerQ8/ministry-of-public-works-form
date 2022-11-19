@@ -19,3 +19,19 @@
 .title {
   font-size: 14px;
 }
+
+@media screen and (max-width: 576px) {
+  .logo-1 {
+    height: auto;
+    width: 50px;
+  }
+
+  .logo-2 {
+    height: auto;
+    width: 50px;
+  }
+
+  .title {
+    font-size: 8px;
+  }
+}
