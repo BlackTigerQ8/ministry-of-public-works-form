@@ -1,21 +1,15 @@
 {
   "files": {
-    "main.css": "/ministry-of-public-works-form/static/css/main.beb4f330.css",
-    "main.js": "/ministry-of-public-works-form/static/js/main.d4402f99.js",
-    "static/js/498.e42d4409.chunk.js": "/ministry-of-public-works-form/static/js/498.e42d4409.chunk.js",
-    "static/js/703.58fd591e.chunk.js": "/ministry-of-public-works-form/static/js/703.58fd591e.chunk.js",
-    "static/js/384.8596c66e.chunk.js": "/ministry-of-public-works-form/static/js/384.8596c66e.chunk.js",
+    "main.css": "/ministry-of-public-works-form/static/css/main.04dfd68f.css",
+    "main.js": "/ministry-of-public-works-form/static/js/main.c8e56675.js",
     "static/media/kw-logo.png": "/ministry-of-public-works-form/static/media/kw-logo.db4d06f49cb1dfe553d1.png",
     "static/media/new-kw.png": "/ministry-of-public-works-form/static/media/new-kw.6bd4f32b3c8c57bea285.png",
     "index.html": "/ministry-of-public-works-form/index.html",
-    "main.beb4f330.css.map": "/ministry-of-public-works-form/static/css/main.beb4f330.css.map",
-    "main.d4402f99.js.map": "/ministry-of-public-works-form/static/js/main.d4402f99.js.map",
-    "498.e42d4409.chunk.js.map": "/ministry-of-public-works-form/static/js/498.e42d4409.chunk.js.map",
-    "703.58fd591e.chunk.js.map": "/ministry-of-public-works-form/static/js/703.58fd591e.chunk.js.map",
-    "384.8596c66e.chunk.js.map": "/ministry-of-public-works-form/static/js/384.8596c66e.chunk.js.map"
+    "main.04dfd68f.css.map": "/ministry-of-public-works-form/static/css/main.04dfd68f.css.map",
+    "main.c8e56675.js.map": "/ministry-of-public-works-form/static/js/main.c8e56675.js.map"
   },
   "entrypoints": [
-    "static/css/main.beb4f330.css",
-    "static/js/main.d4402f99.js"
+    "static/css/main.04dfd68f.css",
+    "static/js/main.c8e56675.js"
   ]
 }
