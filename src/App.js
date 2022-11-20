@@ -8,12 +8,13 @@ import { Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <Routes>
+      <Home />
+      {/* <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/form1" element={<Form1 />} />
         <Route path="/form2" element={<Form2 />} />
         <Route path="/form3" element={<Form3 />} />
-      </Routes>
+      </Routes> */}
     </>
   );
 }
