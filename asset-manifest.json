@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ministry-of-public-works-form/static/css/main.04dfd68f.css",
-    "main.js": "/ministry-of-public-works-form/static/js/main.c8e56675.js",
+    "main.js": "/ministry-of-public-works-form/static/js/main.f9505c20.js",
     "static/media/kw-logo.png": "/ministry-of-public-works-form/static/media/kw-logo.db4d06f49cb1dfe553d1.png",
     "static/media/new-kw.png": "/ministry-of-public-works-form/static/media/new-kw.6bd4f32b3c8c57bea285.png",
     "index.html": "/ministry-of-public-works-form/index.html",
     "main.04dfd68f.css.map": "/ministry-of-public-works-form/static/css/main.04dfd68f.css.map",
-    "main.c8e56675.js.map": "/ministry-of-public-works-form/static/js/main.c8e56675.js.map"
+    "main.f9505c20.js.map": "/ministry-of-public-works-form/static/js/main.f9505c20.js.map"
   },
   "entrypoints": [
     "static/css/main.04dfd68f.css",
-    "static/js/main.c8e56675.js"
+    "static/js/main.f9505c20.js"
   ]
 }
